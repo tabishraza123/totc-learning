@@ -1,0 +1,72 @@
+.explore-coures {
+
+
+    .hover-btn {
+        width: 100px;
+        height: 318px;
+        background-color: white;
+        display: grid;
+        place-items: center;
+        transform: rotate(-10deg)
+    }
+
+    .hover-btn-1 {
+        width: 80px;
+        height: 282px;
+        background-color: #96fab8;
+        display: grid;
+        place-items: center;
+
+
+    }
+
+    .hover-btn-3 {
+        width: 60px;
+        height: 219px;
+        background-color: #FF8374;
+
+    }
+
+    .none {
+        display: none;
+
+
+    }
+
+    .hover-btn:hover+.none {
+        display: flex;
+    }
+
+    .container {
+        overflow: hidden;
+        // background-color: #dfdcdc;
+        background-color: #ddfce7;
+    }
+
+    .over {
+        border: 40px solid rgb(225, 225, 225, 30%);
+    }
+
+
+}
+
+
+#color-1 {
+    background-color: #FF6F00;
+}
+
+#color-2 {
+    background-color: #FF8374;
+}
+
+#color-3 {
+    background-color: #B45A1B;
+}
+
+#color-4 {
+    background-color: #FFB300;
+}
+
+#color-5 {
+    background-color: #00A8FF;
+}

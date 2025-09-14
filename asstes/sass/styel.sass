@@ -1,0 +1,40 @@
+@import "./particals/variables";
+
+
+@import'./../../node_modules/bootstrap/scss/functions';
+@import'./../../node_modules/bootstrap/scss/variables';
+
+
+
+$custom-spacers: (
+  6: $spacer *2.5,
+  7: $spacer *3,
+  8: $spacer *1.25,
+  9: $spacer *5,
+);
+
+$spacers : map-merge($map1: $custom-spacers, $map2:$spacers );
+
+@import'./../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.foot{
+        background-color:#{$black} !important;
+}
+.gardient{
+        font-size: 60px;
+        background: linear-gradient(to right, #136CB5,#49BBBD);
+        color: transparent;
+        -webkit-background-clip: text;
+}
+
+.icon{
+        background-color: $white;
+
+}
+
+@import "./components/featuers";
+@import "./components/testimonials";
+@import "./components/explore";
+@import"./components/globle";
+@import"./components/banner";
+@import"./components/all_in_one";

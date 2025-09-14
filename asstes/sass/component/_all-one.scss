@@ -1,0 +1,24 @@
+.CloudSoftware {
+    .card {
+        height: 300px;
+    }
+
+    .billing {
+        background-color: #5B72EE;
+        height: 80px;
+        width: 80px;
+    }
+
+    .calendars {
+        background-color: $info-text-emphasis;
+        height: 80px;
+        width: 80px;
+    }
+
+    .users {
+        height: 80px;
+        width: 80px;
+        background-color: #29B9E7;
+    }
+
+}

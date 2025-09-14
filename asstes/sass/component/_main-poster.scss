@@ -1,0 +1,60 @@
+.online-now {
+    background-color: $cyan-600;
+    background-color: #49BBBD;
+
+    .play {
+        .how {
+            background-color: white;
+            width: 80px;
+            height: 80px;
+
+            &:hover {
+                background-color: #F48C06;
+            }
+
+
+
+        }
+
+
+    }
+
+    h1 {
+        span {
+            color: $orange;
+        }
+    }
+
+    a {
+        background-color: rgb(225, 225, 225, 30%);
+    }
+
+
+}
+
+.navbar {
+    // background-color: $cyan-600;
+
+    background-color: #49BBBD;
+
+    .bg-color {
+        background-color: $blue-100 ;
+
+    }
+
+    .navbar-nav {
+        .link-1 {
+            background-color: white;
+            color: black;
+
+            &:hover {
+                background-color: transparent;
+            }
+
+        }
+
+        .link-2 {
+            background-color: rgb(225, 225, 225, 30%);
+        }
+    }
+}

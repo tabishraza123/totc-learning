@@ -1,0 +1,43 @@
+// color 
+
+$primary:#49BBBD;
+$black:#252641;
+$navbar-light-color:white;
+$dark:rgba(1, 5, 20, 0.8);
+$info-text-emphasis: #00CBB8;
+$primary-text-emphasis:#2F327D;
+$secondary:#696984;
+
+// footer  
+$headings-font-weight: 600;
+$border-color:#626381;
+$form-label-color:#fff;
+$input-bg:#252641;
+$input-color:white;
+$link-hover-color: white;
+$link-color:black;
+
+
+// font-family
+$font-family-sans-serif:"Poppins", sans-serif;
+$font-family-monospace:"Nunito+Sans", sans-serif;
+$nav-link-font-weight:400;
+
+// font size 
+$h1-font-size:54px;
+$h2-font-size: 36px;
+
+// containers
+$sm: 540px;
+$md: 720px;
+$lg: 960px;
+$xl: 1140px;
+$xxl: 1300px;
+
+$container-max-widths: (
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl,
+  xxl: $xxl
+);
