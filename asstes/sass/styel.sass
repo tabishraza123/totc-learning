@@ -1,40 +1,56 @@
-@import "./particals/variables";
+
+@import './partials/variables';
 
 
-@import'./../../node_modules/bootstrap/scss/functions';
-@import'./../../node_modules/bootstrap/scss/variables';
+
+@import './../../node_modules/bootstrap/scss/functions';
+@import './../../node_modules/bootstrap/scss/variables';
+
+
+
+
 
 
 
 $custom-spacers: (
-  6: $spacer *2.5,
-  7: $spacer *3,
-  8: $spacer *1.25,
-  9: $spacer *5,
+
+  6: $spacer * 4,
+  7: $spacer *2.5,
+  8:$spacer *2,
+
+  10:$spacer *10,
+  11:$spacer *5
 );
+
 
 $spacers : map-merge($map1: $custom-spacers, $map2:$spacers );
 
-@import'./../../node_modules/bootstrap/scss/bootstrap.scss';
+// display font size
+$display-font-sizes: (
+  1: 6rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 1.8rem,
+  7:2.3rem,
+  8:1.5rem,
+  9:.80rem,
+  10:.50rem
+) ;
 
-.foot{
-        background-color:#{$black} !important;
-}
-.gardient{
-        font-size: 60px;
-        background: linear-gradient(to right, #136CB5,#49BBBD);
-        color: transparent;
-        -webkit-background-clip: text;
-}
 
-.icon{
-        background-color: $white;
 
-}
 
-@import "./components/featuers";
-@import "./components/testimonials";
-@import "./components/explore";
-@import"./components/globle";
-@import"./components/banner";
-@import"./components/all_in_one";
+
+@import './../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+@import './component/main-poster';
+@import './component/footer';
+@import './component/our-success';
+@import './component/all-one';
+@import './component/for-student';
+@import './component/class-room';
+@import './component/resoures';
+@import './component/explore'
